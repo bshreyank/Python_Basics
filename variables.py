@@ -10,4 +10,16 @@ b = True
 c = "Harry"
 d = None
 
-print(c)
+print(type(a))
+
+'''
+PS E:\Python> python variables.py    
+<class 'str'>
+PS E:\Python> python variables.py
+<class 'NoneType'>
+PS E:\Python> python variables.py
+<class 'bool'>
+PS E:\Python> python variables.py
+<class 'int'>
+PS E:\Python> 
+'''
