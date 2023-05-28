@@ -27,4 +27,6 @@ Subtraction -
         LEFT to RIGHT
         that thing will be executed first.
 '''
-print(3*3+3/3-3) 
+print(int(3*3+3/3-3))
+
+print(3*(3+3)/3-3)
