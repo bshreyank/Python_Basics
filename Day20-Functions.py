@@ -65,3 +65,10 @@ c=9
 d=7
 
 isGreater(c,d)
+
+
+#---------------------------------------------------------------------->
+
+def isLesser(a,b):
+    pass
+# pass - it means that pass and process the next program. I will come back to it later.
