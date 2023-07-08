@@ -26,13 +26,18 @@ Iterating over a sequence is nothing but iterating over strings, lists, tuples, 
 #----------------------------------------->
 #Range function
 
-for k in range(5):
-    print(k+1)
+# for k in range(5):
+#     print(k+1)
 
-print("---")
+# print("---")
 
-# range goes from n to n-1
-# so if range is from 1 to 20000 it will go from 1 to 19999
-for k in range(1,20000):
+# # range goes from n to n-1
+# # so if range is from 1 to 20000 it will go from 1 to 19999
+# for k in range(1,20000):
+#     print(k)
+#----------------------------------------->
+
+#skips 3 times
+for k in range (1,20,3):
     print(k)
 
